@@ -10,7 +10,7 @@ import torch.nn as nn
 import torch.jit
 import torchvision
 import math
-import numpy as np
+import numpy as np 
 import matplotlib.pyplot as plt
 from einops import rearrange
 

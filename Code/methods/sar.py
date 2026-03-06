@@ -13,7 +13,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
 from matplotlib.lines import Line2D
-import numpy as np  
+import numpy as np   
 
 from sklearn.manifold import TSNE  
 from sklearn.neighbors import LocalOutlierFactor

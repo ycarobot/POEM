@@ -9,7 +9,7 @@ import math
 import torch.nn.functional as F
 
 
-class EATA(nn.Module):
+class EATA(nn.Module): 
     """EATA adapts a model by entropy minimization during testing.
     Once EATAed, a model adapts itself by updating on every forward.
     """

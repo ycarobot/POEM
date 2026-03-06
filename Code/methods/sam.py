@@ -11,7 +11,7 @@ class SAM(torch.optim.Optimizer):
 
         defaults = dict(rho=rho, adaptive=adaptive, **kwargs)
         super(SAM, self).__init__(params, defaults)
-
+ 
         self.base_optimizer = base_optimizer(self.param_groups, **kwargs)
         self.param_groups = self.base_optimizer.param_groups
         self.defaults.update(self.base_optimizer.defaults)

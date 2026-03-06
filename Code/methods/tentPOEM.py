@@ -13,7 +13,7 @@ def update_ema(ema, new_data):
         return new_data
     else:
         with torch.no_grad():
-            return 0.9 * ema + (1 - 0.9) * new_data
+            return 0.9 * ema + (1 - 0.9) * new_data 
 
 class tentPOEM(nn.Module):
     """Tent adapts a model by entropy minimization during testing.

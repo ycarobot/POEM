@@ -126,7 +126,6 @@ def forward_and_adapt(x, model, optimizer,branch_optimizer, reset_constant, ema)
     filter_ids_after=filter_ids_1
     
     for i in range(2):
-        
         if not issame(filter_ids_before, filter_ids_after):
             if len(filter_ids_1) != 0 :
                 outputs,outputs_branch,feature = model(x)

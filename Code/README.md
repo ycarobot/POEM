@@ -33,4 +33,4 @@ shell: python main.py
 Moreover, we also prepare code for the plug-and-play, check the tentPOEM-I tentPOEM-II, and tentPOEM in methods filepackage.
 
 ## Acknowledgment
-The code is inspired by the [Tent 🔗](https://github.com/DequanWang/tent), [EATA 🔗](https://github.com/mr-eggplant/EATA), [SAR 🔗](https://github.com/mr-eggplant/SAR) and [DeYO 🔗](https://openreview.net/forum?id=9w3iw8wDuE) (ICLR 2024)  .
+The code is inspired by the [Tent 🔗](https://github.com/DequanWang/tent), [EATA 🔗](https://github.com/mr-eggplant/EATA), [SAR 🔗](https://github.com/mr-eggplant/SAR) and [DeYO 🔗](https://openreview.net/forum?id=9w3iw8wDuE) (ICLR 2024) .

@@ -26,7 +26,7 @@ python main.py --method $METHOD --data_root $ROOT --dset ImageNet-C --gpu $GPU -
 
 # Label_shifts setting
 EXP=label_shifts
-INTERVAL=100
+INTERVAL=100 
 python main.py --method $METHOD --data_root $ROOT --dset ImageNet-C --gpu $GPU --plpd_threshold $DTHR --deyo_margin $ETHR --deyo_margin_e0 $EMAR --exp_type $EXP --model $MODEL --wandb_interval $INTERVAL --seed $SEED --wandb_log $LOG
 
 # bs1 setting

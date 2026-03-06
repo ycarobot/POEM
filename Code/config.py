@@ -19,7 +19,7 @@ def get_args():
     # dataloader
     parser.add_argument('--workers', default=8, type=int, help='number of data loading workers (default: 4)')
     parser.add_argument('--test_batch_size', default=64, type=int, help='mini-batch size for testing, before default value is 4')
-    parser.add_argument('--if_shuffle', default=True, type=bool, help='if shuffle the test set.')
+    parser.add_argument('--if_shuffle', default=True, type=bool, help='if shuffle the test set.' )
 
     # corruption settings
     parser.add_argument('--level', default=5, type=int, help='corruption level of test(val) set.')
